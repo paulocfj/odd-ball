@@ -1,5 +1,5 @@
 const names = require("./characterNames.js");
-const arenaSize = 600;
+const arenaSize = 480;
 const playerMinRadius = 5;
 const playerMaxRadius = 30;
 const coolDownMin = 2000;

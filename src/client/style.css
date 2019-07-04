@@ -1,22 +1,25 @@
 body {
-    background-color: rgb(94, 94, 94);
+    background-color: rgb(2, 0, 0);
     font-family: sans-serif;
 }
 
 #arena {
-	background-color: black;
-	margin: auto;
+    background-image: url('asteroides-terra.gif');
+    /* background-color: black; */
+    margin: 100px 480px;
+    position: center;
+    cursor: none;
 }
 
 .player {
     position: absolute;
     border-radius: 50%;
-    background-color: white;
+    background-color: rgb(10, 235, 10);
     pointer-events: none;
 }
 
 .player > p {
-    color: rgba(53, 53, 53, 0.74);
+    color: rgb(226, 229, 227);
     font-size: 12px;
     width: max-content;
     position: relative;
@@ -30,11 +33,11 @@ body {
 }
 
 .hunter {
-    background-color: rgb(226, 145, 107);
+    background-color: rgb(14, 10, 141);
 }
 
 .dead {
-    background-color: #1f1f1f;
+    background-color: #ee0a0a;   
 }
 
 #changeNameContainer {
